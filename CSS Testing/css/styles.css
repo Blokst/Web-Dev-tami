@@ -1,0 +1,28 @@
+/*External CSS testing*/
+/* ta tuh ta tuh ta tuh ta tuh*/
+body{
+    background-color: aquamarine;
+}
+body{
+    background-color: beige;
+}
+h1{
+    color: bisque; text-align: center;
+}
+p{
+    color: green; text-align: left;
+}
+
+
+li {
+float: left;
+
+display: inline;
+background-color: #dddddd;
+}
+body{
+    background-color: beige;
+}
+h1{
+    color: bisque; text-align: center;
+}

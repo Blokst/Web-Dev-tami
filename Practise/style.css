@@ -1,0 +1,41 @@
+/* this changes the font and the backgrounf colour*/
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif; background-color: bisque;
+}
+h1, h2, h3, h4, h5, h6{
+    font-size: medium;
+}
+header{
+    text-align: center; font-weight: bold;
+}
+footer{
+    font-style: italic; color: floralwhite;
+}
+section{
+    color:coral;
+}
+body{
+    min-width: auto;padding-left: 0%;
+}
+div{
+    border: 2px black solid;
+    padding:10px;
+    margin: 10px;
+}
+a:hover{
+    background-color: beige;
+    font-size: 18px ;
+}
+#ID-style{
+    color: burlywood;
+}
+#nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.c-bisque{
+    color: black; 
+    text-align: center;
+}
