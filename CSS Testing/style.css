@@ -1,0 +1,11 @@
+.food{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    background-color: burlywood;
+    font-size: 16px;
+    font-weight: bold ;
+    text-decoration:line-through;
+    font-style: italic;
+    text-transform: lowercase;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: 140%;}   

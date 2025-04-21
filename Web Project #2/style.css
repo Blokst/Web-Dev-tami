@@ -3,20 +3,21 @@ Course: Web Dev 10S(PTEC) - P6
 Teacher: Ms Hoitink
 School: Pembina Trails Collegiate
 Date Last Modified: 03/18/2025
+Colour Family: Monochromatic and it is mostly brown and it is commonly associated with history and i like a monochromatic as it isn`t too distracting for the 5-8 auduence who should be able to focus to (https://www.adobe.com/express/colors/brown#:~:text=In%20prehistoric%20times%2C%20the%20color,%E2%80%9Cthose%20dressed%20in%20brown.%E2%80%9D)
+--> 
 */
 /* sets font family and background color */
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    background-color: #CEAB93;
+    background-color: #E3CAA5;
     padding-top: 20px;
 }
 
 /*  italic font, light background color, centered text */
 div {
-    font-style: italic; 
-    background-color: #E3CAA5; 
-    text-align: left; 
+    background-color: #ceab93a7;
+    text-align:left; 
 }
+
 
 /*  changes text color to burlywood */
 #ID-style {
@@ -60,7 +61,7 @@ h2 {
 }
 
 /* floats the image to the right */
-#veryspecial {
+.veryspecial {
     float: right; 
 }
 
@@ -81,3 +82,36 @@ h2 {
 .goldlink{
         font-weight: bold;
 }
+footer{
+    background-color: #b17d3a2b   ;
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center; 
+}
+.subheading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+*{
+    line-height: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    color: purple;
+}
+a:hover{
+    background-color: rgba(80, 55, 27, 0.247);
+    font-size: 18px ;
+    padding: 10px;
+    border-radius: 5px;
+}
+#bob{
+    text-align: right;
+}
+
+

@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    background-color: #07575B;
+    height: 200px;
+    margin: 10px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+div {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+li {
+    background-color: #66A5AD;
+    padding: 20px;
+    margin: 5px;
+    color: aliceblue;
+    border: solid #C4DFE6;
+    text-align: center;
+    flex: 0 0 auto;
+}
