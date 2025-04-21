@@ -14,7 +14,7 @@ body {
 
 /*  italic font, light background color, centered text */
 div {
-    background-color: #ceab93a7;
+    
     text-align:left; 
 }
 
@@ -72,44 +72,61 @@ h2 {
 
 /* makes text italic */
 
-#chillsonmyspine{
+/* Centers text for the element/
+#chillsonmyspine {
     text-align: center;
 }
-.superspecial {
-    margin-top: 40px;
-    padding-top: 10px;
+
+/* Adds space above and inside elements */ 
+.superspecial{
+    margin-top: 40px; 
+    padding-top: 10px; 
 }
-.goldlink{
-        font-weight: bold;
+
+/* Makes text bold for elements*/
+.goldlink {
+    font-weight: bold;
 }
-footer{
-    background-color: #b17d3a2b   ;
+
+/* Styles the footer with a light golden background */
+footer {
+    background-color: #b17d3a2b;
 }
-.heading{
+
+/* Styles the main heading with elegant fonts and uppercase bold text */
+.heading {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 46px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center; 
+    text-align: center;
 }
-.subheading{
+
+/* Styles subheadings with a modern sans-serif italic style */
+.subheading {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
     font-style: italic;
 }
+
+/* standardized descriptions(  size font family and line spacing/height*/
 *{
     line-height: 140%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
+/* makes images purple to stand out*/
 img{
     color: purple;
 }
+/* makes the text hover*/
 a:hover{
     background-color: rgba(80, 55, 27, 0.247);
     font-size: 18px ;
     padding: 10px;
     border-radius: 5px;
 }
+/* aligns the text to the right*/
 #bob{
     text-align: right;
 }
