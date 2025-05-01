@@ -9,3 +9,33 @@
     letter-spacing: normal;
     word-spacing: normal;
     line-height: 140%;}   
+    *{
+        line-height: 140%;
+        color: #291541;
+        font-size: 20px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    section p{
+            font-weight: bold;
+        }
+        section{
+            background-color: #5ac88b;
+        }
+        nav a{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: purple;
+            background-color: peachpuff;
+        }
+        a:hover{
+                color:  peachpuff;
+                font-size: 24px;
+                background-color: purple;
+        }
+        h1{
+            text-align: center;
+        }
